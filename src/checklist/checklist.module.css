@@ -1,0 +1,11 @@
+.whiteboard{
+    height: 92vh;
+    width: 100vw;
+    background-color: white;
+    position:fixed;
+    top: 65px;
+    left: 80px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+}

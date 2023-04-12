@@ -1,0 +1,15 @@
+.funOneline{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 2px gray;
+    font-size: 20px;
+}
+
+.separation{
+    border-left: gray solid 1px;
+}
+
+.funwon{
+    color: rgb(75, 75, 255);
+    font-weight: 700;
+}

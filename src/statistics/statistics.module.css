@@ -1,0 +1,73 @@
+.whiteboard{
+    height: 92vh;
+    width: 100vw;
+    background-color: white;
+    padding: 15px;
+    position:fixed;
+    top: 65px;
+    left: 80px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.rowline{
+    display: flex;
+}
+.line{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.chart1{
+    width: 90%;
+    height: 25vh;
+    border: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: rgb(201, 201, 201);
+    padding: 20px;
+    margin: 10px;
+}
+.chart2{
+    width: 90%;
+    height: 25vh;
+    border: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: rgb(201, 201, 201);
+    padding: 20px;
+    margin: 10px;
+}
+.chart3{
+    width: 35%;
+    height: 60vh;
+    border: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: rgb(201, 201, 201);
+    padding: 20px;
+    margin: 10px;
+}
+
+.rowButton{
+    width: 89%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    width: 400px;
+    height: 70px;
+    margin: 15px;
+    font-size: 25px;
+    background-color: #28b66b;
+    border: 0;
+    border-radius: 15px;
+}
+.button:hover{
+    background-color: #007c5d;
+}

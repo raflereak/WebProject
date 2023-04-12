@@ -1,0 +1,49 @@
+.whiteboard{
+    height: 92vh;
+    width: 100vw;
+    background-color: white;
+    position:fixed;
+    top: 65px;
+    left: 80px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardy{
+}
+.calendarCard{
+    width: 400px;
+    height: 350px;
+    border: solid;
+    border-width: 3px;
+    border-color: rgb(201, 201, 201);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.dayTimeCard{
+    width: 400px;
+    border: solid;
+    border-width: 3px;
+    border-color: rgb(201, 201, 201);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.dayTimelineCard{
+    width: 800px;
+    border: solid;
+    border-width: 3px;
+    border-color: rgb(201, 201, 201);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#scroll-horizontal .scroll-horizontal > div {
+    display: grid !important;
+    grid-template-rows: auto auto;
+    grid-auto-flow: column;
+}

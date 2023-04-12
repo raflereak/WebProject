@@ -1,0 +1,162 @@
+.whiteboard{
+    height: 92vh;
+    width: 95vw;
+    background-color: white;
+    position:fixed;
+    top: 65px;
+    left: 80px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.head{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+
+.body{
+    width: 90%;
+    display: flex;
+    border: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: rgb(201, 201, 201);
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.storeimage{
+    border: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: rgb(201, 201, 201);
+    padding: 20px;
+    margin: 10px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.input{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+.tail{
+    width: 88vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.starScore{
+    width: 25vw;
+    border: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: rgb(201, 201, 201);
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.recentScore{
+    width: 25vw;
+    border: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: rgb(201, 201, 201);
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.recentArba{
+    width: 25vw;
+    border: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: rgb(201, 201, 201);
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.div__button_select {
+    display: flex;
+    width: 200px;
+    height: 40px;
+  }
+
+input[id="modify"]{
+    display: none;
+  }
+  
+  input[id="modify"]+label{
+    display: block;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+  }
+  input[id="modify"]+label span{
+    display: block;
+    position: absolute;
+    width: 100%;
+    background: #007c5d;
+    transition: all .35s;
+  }
+  input[id="modify"]:checked+label span{ 
+    background: #003125;
+  }
+  
+  input[id="setting"]{
+    display: none;
+  }
+  
+  input[id="setting"]+label{
+    display: block;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+  }
+  input[id="setting"]+label span{
+    display: block;
+    position: absolute;
+    width: 100%;
+    background: #007c5d;
+    transition: all .35s;
+  }
+  input[id="setting"]:checked+label span{  
+    background: #003125;
+  }
+  input[id="setting"]:hover+label span{
+    background: rgb(223, 223, 223);
+    color: black;
+  }
+  input[id="modify"]:hover+label span{
+    background: rgb(223, 223, 223);
+    color: black;
+  }

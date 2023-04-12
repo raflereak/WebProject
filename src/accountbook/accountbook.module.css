@@ -1,0 +1,62 @@
+.whiteboard{
+    height: 92vh;
+    width: 100vw;
+    background-color: white;
+    position:fixed;
+    top: 65px;
+    left: 80px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.line{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.oneline{
+    width: 90%;
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.red{
+    width: 45%;
+    border: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: rgb(201, 201, 201);
+    padding: 20px;
+
+}
+
+.blue{
+    width: 45%;
+    border: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: rgb(201, 201, 201);
+    padding: 20px;
+
+}
+
+
+.twoline{
+    width: 87%;
+    border: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: rgb(201, 201, 201);
+    padding: 20px;
+    margin-top: 30px;
+}

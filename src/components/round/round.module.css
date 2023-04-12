@@ -1,0 +1,12 @@
+body{
+    font-family: 'nanumsquare';
+  }
+  
+ .top_nav{
+    background: #007C5D;
+    display: flex;
+    color: white;
+    padding: 20px;
+    font-weight: 600px;
+    font-size: 20px;
+  }
